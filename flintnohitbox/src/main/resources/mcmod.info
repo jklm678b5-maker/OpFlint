@@ -1,0 +1,14 @@
+[
+{
+  "modid": "flintnohitbox",
+  "name": "Flint No Hitbox",
+  "description": "Lets Flint and Steel ignore player and mob hitboxes so you can place fire directly under them.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "authorList": ["you"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
