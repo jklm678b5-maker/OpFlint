@@ -30,7 +30,7 @@ public class FlintInteractHandler {
 
     @SubscribeEvent
     public void onEntityInteract(EntityInteractEvent event) {
-        EntityPlayer player = event.getEntityPlayer();
+       EntityPlayer player = event.entityPlayer;
         ItemStack held = player.getHeldItem();
 
         if (held == null || !(held.getItem() instanceof ItemFlintAndSteel)) {
